@@ -14,7 +14,8 @@ struct Rectangle {
 int main()
 {
     struct Rectangle r1 = {10, 5};
-    printf("%lu", sizeof(r1));
+    cout << "Length of Rectangle: " << r1.len << endl;
+    cout << "Breadth of Rectangle: " << r1.Breadth << endl;
 
     return 0;
 }
