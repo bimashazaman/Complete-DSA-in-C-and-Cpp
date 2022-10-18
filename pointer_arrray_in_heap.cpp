@@ -11,7 +11,9 @@ int main()
 
    int *POINER; // pointer to an integer
    
-   POINER = (int *)malloc(5 * sizeof(int)); // allocate memory for 5 integers using malloc IN HEAP
+   POINER = (int *)malloc(5 * sizeof(int)); // allocate memory for 5 integers using malloc IN HEAP by C
+
+   //  POINTER = new int[5]; // allocate memory for 5 integers using new IN HEAP by C++
    
    POINER[0]= 10; // assign value to first element
    POINER[1]= 12; // assign value to second element
