@@ -24,11 +24,17 @@ int fib(int n){
 
 }
 
+int rfib(int n){
+    if(n <= 1) return n;
+    return rfib(n-2) + rfib(n-1);
+}
+
 
 int main(){
 
     int n = 9; // the nth term
     cout << fib(n) << endl; // print the nth term
+    cout << rfib(n) << endl; // print the nth term
 
 
     return 0; // exit
